@@ -255,3 +255,4 @@ if __name__ == "__main__":
         else:
             get_points_live(False)
             print(bcolors.FAIL + "\nUnknown input" + bcolors.ENDC)
+            client.run(os.environ['Token'])
